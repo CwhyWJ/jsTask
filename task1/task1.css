@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    /*width: 100%;*/
+    width: 100vm;
+}
+ul {
+    padding: 0px;
+}
+ul li {
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 2.5% 0px 0px 2.5%;
+    list-style: none;
+    background: orange;
+    float: left;
+    border-radius: 10px;
+}
+
+#UL2 {
+    padding: 0px;
+}
+#UL2 li {
+    width: 30vw;
+    padding-bottom: 30vw;
+    margin: 2.5vw 0px 0px 2.5vw;
+    list-style: none;
+    background: orange;
+    float: left;
+    border-radius: 35px;
+}
+button {
+    width: 100%;
+    margin: 2.5% 0px 0px 0px;
+    padding: 2.5% 0;
+    border: 1px solid orange;
+    background-color: #ffffff;
+    font-size: small;
+    color: orange;
+    border-radius: 5px;
+}
