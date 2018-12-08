@@ -1,12 +1,18 @@
+var doubleClick = false;
 //开始按钮
 function clickLightBtn(e){
-    startInterval = setInterval(lightFn,1000);
-    setBtnColor(e);
+    if(!doubleClick){
+        startInterval = setInterval(lightFn,1000);
+        setBtnColor(e);
+        doubleClick = true;
+    }
+
 }
 //结束按钮
 function  clickStopBtn(e) {
     try{
         clearInterval (startInterval);
+        doubleClick = false;
     }catch (e) {
 
     }
